@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registro</title>
+    </head>
+    <body>
+        <section class="form-section">
+            <h2>Formulario de Ventas</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" name="correo"><br><br>
+                
+                <label for="tipo_planta">Tipo de Planta:</label><br>
+                <select id="tipo_planta" name="tipo_planta">
+                    <option value="cactus">Cactus</option>
+                    <option value="ornamental">Ornamental</option>
+                    <option value="medicinal">Medicinal</option>
+                    <option value="alimentaria">Alimentaria</option>
+                    <option value="industrial">Industrial</option>
+                </select><br><br>
+                
+                <label for="metodo_pago">Método de Pago:</label><br>
+                <input type="radio" id="efectivo" name="metodo_pago" value="efectivo">
+                <label for="efectivo">Pago en Efectivo</label><br>
+                <input type="radio" id="virtual" name="metodo_pago" value="virtual">
+                <label for="virtual">Pago Virtual</label><br>
+                <input type="radio" id="tarjeta" name="metodo_pago" value="tarjeta">
+                <label for="tarjeta">Pago por Tarjeta</label><br><br>
+                
+                <input type="checkbox" id="condiciones" name="condiciones">
+                <label for="condiciones">Declara haber leído y acepta las condiciones de acuerdo con la política del negocio.</label><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </body>
+</html>
